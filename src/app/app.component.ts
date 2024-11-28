@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'apim-dev';
-  userInput = '';
+  title = 'Web';
+  userInput = 'angular dev portal';
   showMessage = false;
   items = ['Item 1', 'Item 2', 'Item 3'];
 
