@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Web';
+  title = 'apim-dev';
+  userInput = '';
+  showMessage = false;
+  items = ['Item 1', 'Item 2', 'Item 3'];
+
+  toggleMessage() {
+    this.showMessage = !this.showMessage;
+  }
+
+  addItem() {
+    this.items.push('New Item');
+  }
 }
